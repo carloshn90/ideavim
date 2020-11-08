@@ -167,3 +167,10 @@ map <leader>run :action Run<CR>
 map <leader>re :action RenameElement<CR>
 map <leader>sw :action Switcher<CR>
 map <leader>mtr :action MoveTabRight<CR>
+map g] :action GotoImplementation<CR>
+map <leader>br :action ToggleLineBreakpoint<CR>
+map <leader>cl :action GotoClass<CR>
+
+"------------------------------------------------------------
+"Multi-line
+set multiple-cursors
